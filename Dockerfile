@@ -6,9 +6,3 @@ COPY . .
 
 RUN pip install --upgrade pip
 RUN pip install django==4.2
-
-EXPOSE 3000
-
-
-
-CMD ["bash"]
